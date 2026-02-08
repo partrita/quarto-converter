@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "mybook"
+  author: "Norah Jones"
+  date: "1/24/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - default
+      - brand
+
+execute:
+  freeze: auto
+
