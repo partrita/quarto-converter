@@ -4,3 +4,7 @@ book:
   title: Converted Book
   chapters:
   - index.qmd
+
+format:
+  html:
+    theme: flatly
